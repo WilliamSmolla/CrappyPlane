@@ -1,0 +1,12 @@
+[22:52:40] Log system initialized successfully.
+[22:52:40] SDL_VID initialized successfully.
+[22:52:40] SDL_IMG initialized successfully.
+[22:52:40] SDL_MIX initialized successfully
+[22:52:40] Window created successfully.
+[22:52:40] Renderer created successfully.
+[22:52:40] Asset manager initialized successfully.
+[22:52:40] Sound manager initialized successfully.
+[22:52:40](Warning) Lag of 10 ms
+[22:52:45] Collision detected.
+[22:52:48](Warning) Lag of 5 ms
+[22:52:50](Warning) Lag of 28 ms

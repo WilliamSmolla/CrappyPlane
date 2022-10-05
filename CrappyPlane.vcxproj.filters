@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Vec3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Vec4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\CollisionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ParticleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Maths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Vec4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\FileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\Components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\CollisionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ParticleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\groundDirt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\groundGrass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\groundIce.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\groundRock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\groundSnow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\puffLarge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\puffSmall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockGrass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockGrassDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockIce.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockIceDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockSnow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rockSnowDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\starBronze.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\starGold.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\starSilver.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\planeYellow2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\blue.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\green.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\red.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shimmer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explosion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\canvas.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\MainTheme.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MainTheme.flac" />
+    <None Include="res\MainTheme.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\STONB.TTF" />
+    <Font Include="res\blackmud.ttf" />
+  </ItemGroup>
+</Project>
